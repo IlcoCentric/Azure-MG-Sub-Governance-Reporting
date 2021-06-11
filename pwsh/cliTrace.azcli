@@ -1,0 +1,4 @@
+Get-AzContext
+Get-AzSubscription
+Connect-AzAccount -TenantID 060f338f-eb98-4a1f-9512-f57ff4610a7c
+.\AzGovVizParallel.ps1 -ManagementGroupId 060f338f-eb98-4a1f-9512-f57ff4610a7c -SubscriptionId4AzContext bc5f99a6-ab68-4167-8821-660cb81d3186 -NoAzureConsumption
